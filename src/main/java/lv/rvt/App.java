@@ -2,10 +2,11 @@ package lv.rvt;
 
 public class App 
 {
-    public static void main( String[] args )
+    public class AdaLovelace 
     {
-        // Make your first Hello World app!
-
+    public static void main(String[] args) 
+        {
+            System.out.printIn("Ada Lovelace")
+        }
     }
-
 }
