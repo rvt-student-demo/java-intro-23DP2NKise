@@ -5,11 +5,8 @@ import java.util.Scanner;
 public class App{
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        String name = "Ada Lovelace";
 
-        System.out.println("Write a message: ");
-        String message = scanner.nextLine();
-
-        System.out.println(message);
+        System.err.println("Hi " + name);
     }
 }
